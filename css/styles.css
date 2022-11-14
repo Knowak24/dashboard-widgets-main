@@ -3,11 +3,13 @@
   /* Set your own grid   */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-template-rows: 400px;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 200px;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   height: 100%;
+  font-size: 30px ;
+ 
 }
 
 /* Widgets */
@@ -42,6 +44,8 @@ section {
 .date {
   border: 4px solid green;
   border-radius: 10px;
+ text-align: center;
+  
   
 }
 
@@ -61,6 +65,7 @@ section {
 .weather {
   border: 4px solid green;
   border-radius: 10px;
+  align-items: center;
   
 }
 
@@ -78,4 +83,13 @@ section {
 body{
   background-color: #000000;
   color: #ffffff;
+  text-align: center;
+  
+}
+h1{
+  display: none;
+}
+data{
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
